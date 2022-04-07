@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+	<h1>Matt's Background Generator</h1>
+	
+	<p>Colour 1</p>
+	<input id="input1" type="color" name="colour1" value="#00ff00"><br>
+	<p>Colour 2</p>
+	<input id="input2" type="color" name="colour2" value="#ff0000">
+	
+	<div id="randomColourGenerator">
+		<h2>Random Colour Generator!</h2>
+
+		<input type="button" id="randomButton" name="randomColours" value="RANDOMISE">
+	</div>
+
+	<h2>Current CSS Background</h2>
+	<h3>Hexadecimal Values:</h3>
+	<h3 id="css1">colour 1 = #00ff00, colour 2 = #ff0000.</h3>
+	<h3>CSS Code:</h3>
+	<h3 id="css2">linear-gradient(to right, red , yellow)</h3>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
